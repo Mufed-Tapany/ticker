@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#news {
+    white-space: nowrap;
+    position: absolute;
+    width: 600px;
+    left: 100%;
+    padding-top: 5px;
+}
+
+#news a {
+    padding-right: 35px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#ticker {
+    position: relative;
+    border: 2px rgb(19, 18, 18) solid;
+    overflow: hidden;
+    height: 2.3em;
+}
+
+#tickerBottom {
+    position: relative;
+    top: 641px;
+    border: 2px rgb(19, 18, 18) solid;
+    overflow: hidden;
+    height: 2.3em;
+}
+
+#newsBottom {
+    position: absolute;
+    white-space: nowrap;
+    width: 600px;
+    right: 415%;
+    padding-top: 5px;
+}
+
+#newsBottom a {
+    padding-right: 35px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace;
+}
